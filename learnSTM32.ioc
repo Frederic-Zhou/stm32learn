@@ -1,6 +1,7 @@
 #MicroXplorer Configuration settings - do not modify
 File.Version=6
-IWDG.IPParameters=Reload
+IWDG.IPParameters=Reload,Prescaler
+IWDG.Prescaler=IWDG_PRESCALER_4
 IWDG.Reload=4095
 KeepUserPlacement=false
 Mcu.Family=STM32F1

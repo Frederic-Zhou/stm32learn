@@ -145,11 +145,10 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
 	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
-
-	  if(handleStatus==1){
-		  HAL_IWDG_Refresh(&hiwdg);
-	  }
+	  HAL_Delay(1000);
+	  HAL_IWDG_Refresh(&hiwdg);
   }
   /* USER CODE END 3 */
 }

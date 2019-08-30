@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=/Users/zeta/workspace/stm32dev/learnSTM32/Inc
+HeaderPath=/Users/zeta/workspace/mcuDev/stm32learn/Inc
 HeaderFiles=stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;
-SourcePath=/Users/zeta/workspace/stm32dev/learnSTM32/Src
+SourcePath=/Users/zeta/workspace/mcuDev/stm32learn/Src
 SourceFiles=stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;stm32f1xx_hal_timebase_tim.c;
 
 [PreviousLibFiles]
